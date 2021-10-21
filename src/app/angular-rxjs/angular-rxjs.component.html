@@ -1,0 +1,45 @@
+<div class="container" style="height: 100px">
+  <table class="table1">
+  
+    <tr>
+      <!-- <td><button class="mybutton" routerLink="/parent">InputOutput</button></td> -->
+      <td><button class="mybutton" routerLink="map">Map</button></td>
+
+      <td>
+        <button class="mybutton" [routerLink]="['./mergemap']">MergeMap</button>
+      </td>
+      <!-- <td><button class="mybutton" routerLink="/emplist">Employee Crude</button></td> -->
+      <td>
+        <button class="mybutton" [routerLink]="['./promise']">Promises</button>
+      </td>
+      <td>
+        <button class="mybutton" [routerLink]="['./pipes']">Custom Pipes</button>
+      </td>
+    
+      <td>
+        <button class="mybutton" routerLink="of-from">of-from operator</button>
+      </td>
+    </tr>
+    <tr>
+        <td>
+          <button class="mybutton" routerLink="of-from">of-from operator</button>
+        </td>
+        <td>
+          <button class="mybutton" routerLink="filter">Filter operator</button>
+        </td>
+        <td>
+          <button class="mybutton" routerLink="tap">Tap operator</button>
+        </td>
+        <td>
+          <button class="mybutton" routerLink="asyncawait">Async/Await</button>
+        </td>
+        <td>
+          <button class="mybutton" routerLink="take">Take Operator</button>
+        </td>
+        
+      </tr>
+    
+  </table>
+</div>
+<router-outlet></router-outlet>
+

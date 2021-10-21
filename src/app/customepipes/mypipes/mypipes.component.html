@@ -1,0 +1,27 @@
+
+<div class="container">
+  <div class="row">
+      <div class="col-3">
+        <p>Custome pipe Example</p>
+    <table border="1px solid black">
+      <tr>
+        <td>EmpNo</td>
+        <td>Name</td>
+        <td>Salary</td>
+        <td>Gender</td>
+      </tr>
+      <tr *ngFor="let employee of employees">
+        <td>{{ employee.empno }}</td>
+        <td>{{ employee.Name | custpipe: employee.gender }}</td>
+        <td>{{ employee.salary }}</td>
+        <td>{{ employee.gender }}</td>
+      </tr>
+    </table>
+</div>
+  <div class="col-9">
+      What are pipes in Angular? <br/>Angular provides some helpful filters known as
+      Pipes which makes it very easy to format or transform the data value
+      according to our needs.
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+.table1
+{
+    margin-top: 20px;
+}
+.mybutton
+{
+    width: 170px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lightblue;
+    margin-left: 10px;
+}

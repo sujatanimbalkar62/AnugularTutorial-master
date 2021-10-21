@@ -1,0 +1,8 @@
+.page
+{
+    border: 1px solid black;
+    background-color: rgb(250, 148, 148);
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+}

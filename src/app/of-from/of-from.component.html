@@ -1,0 +1,63 @@
+<div class="container">
+  <h1>Of and From</h1>
+  <p>OF:Convert argumrnt to obervable sequence</p>
+  <p>
+    From:Create Obserable from an array, an array-like object,a Promise,an
+    itrable object or an obeserable-like object
+  </p>
+  <br />
+  <strong>Ex.1 (Of)</strong>
+  <hr />
+  <div class="row">
+    <div class="col-md-6">
+      <p class="bg-light py-2 px-3 border rounded">
+        <strong>Data:</strong>of('Anup','Shekhar','Sharma')
+      </p>
+      <hr />
+      <ul id="elContainer"></ul>
+    </div>
+
+    <div class="col-md-6">
+      <p class="bg-light py-2 px-3 border rounded">
+        <strong>Data:</strong>of(a:'Anup',b:'Shekhar',c:'Sharma')
+      </p>
+      <hr />
+      <ul>
+        <li><strong>a:</strong>{{ obsMsg.a }}</li>
+        <li><strong>b:</strong>{{ obsMsg.b }}</li>
+        <li><strong>c:</strong>{{ obsMsg.c }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <strong>Ex.2 (From)</strong>
+    <hr />
+    <div class="col-md-4">
+      <strong>Array</strong>
+      <p class="bg-light py-2 px-3 border rounded">
+        <strong>Data:</strong>from(['john','Shekhar','alex'])
+      </p>
+      <hr />
+      <ul id="elContainer3"></ul>
+    </div>
+
+    <div class="col-md-4">
+      <strong>Promise</strong>
+      <p class="bg-light py-2 px-3 border rounded">
+        <strong>Data:</strong>promise to Obserable
+      </p>
+      <hr />
+      <ul id="elContainer4"></ul>
+    </div>
+    <div class="col-md-4">
+        <strong>String</strong>
+        <p class="bg-light py-2 px-3 border rounded">
+          <strong>Data:</strong>string to Obserable
+        </p>
+        <hr />
+        <ul id="elContainer5"></ul>
+      </div>
+  </div>
+</div>

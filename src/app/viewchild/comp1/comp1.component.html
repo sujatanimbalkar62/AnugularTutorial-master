@@ -1,0 +1,19 @@
+<div class="container ">
+    <strong>Using ViewChild element we can modified Dom element</strong>
+   
+    <div class="page-area">
+  <div #box>
+      <h1>UserName is <span class="text-sucess">{{userName}}</span></h1>
+  </div>
+    </div>
+<div class="row">
+    <div class="col-md-6">
+     <button (click)="changeChildProperty()"> Change Child Property</button>&nbsp;
+     <button  (click)="calledChildMethod()"> Called Child Method</button>
+    </div>
+    <div class="col-md-6">
+     <app-comp2></app-comp2>
+
+    </div>
+    </div>
+</div>

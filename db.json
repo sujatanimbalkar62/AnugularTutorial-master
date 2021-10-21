@@ -1,0 +1,44 @@
+{
+  "restarents": [
+    {
+      "id": 2,
+      "firstName": "Amol",
+      "middleName": "Ramnath",
+      "lastName": "Aher",
+      "mobile": 9527148820,
+      "address": "Nashik"
+    },
+    {
+      "id": 3,
+      "firstName": "Amol",
+      "middleName": "Ramnath",
+      "lastName": "Aher",
+      "mobile": 9527148820,
+      "address": "Nashik"
+    },
+    {
+      "id": 4,
+      "firstName": "Reyansh ",
+      "middleName": "Amol",
+      "lastName": "Aher",
+      "mobile": "9527148820",
+      "address": "Nashik"
+    },
+    {
+      "id": 5,
+      "firstName": "Smita",
+      "middleName": "Suresh",
+      "lastName": "Nimbalkar",
+      "mobile": "78889956",
+      "address": "Sinner"
+    },
+    {
+      "id": 6,
+      "firstName": "Nikhil",
+      "middleName": "Suresh",
+      "lastName": "Nimbalkar",
+      "mobile": "789123",
+      "address": "Dehli"
+    }
+  ]
+}

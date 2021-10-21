@@ -1,0 +1,62 @@
+
+<kendo-appbar position="top">
+  <kendo-appbar-section>
+    <button class="k-button k-button-clear">
+      <kendo-icon name="menu"></kendo-icon>
+    </button>
+  </kendo-appbar-section>
+
+  <kendo-appbar-section>
+    <h1 class="title">Kendo UI for Angular</h1>
+  </kendo-appbar-section>
+
+  <kendo-appbar-spacer width="32px"></kendo-appbar-spacer>
+
+  <kendo-appbar-section>
+    <ul class="nav nav-tabs"> 
+      <li class="nav-link" routerLinkActive="active" routerLink="/home">Home</li>
+      <li class="nav-link" routerLinkActive="active"  routerLink="/angularrxjs">Angular Rxjs</li>
+      <!-- <li routerLink="/map">Map</li> -->
+      <li class="nav-link" routerLinkActive="active"  routerLink="/angularconcept">Angular Concept</li>
+      
+      <li  class="nav-link" routerLinkActive="active"> <a href="https://www.learnrxjs.io/learn-rxjs/operators">Rxjs operators</a></li>
+      
+      <!-- <li class="nav-link" routerLinkActive="active"  routerLink="parent">InputOutput</li>
+       <li class="nav-link" routerLinkActive="active"  routerLink="emplist">Employee Crude</li> 
+       <li class="nav-link" routerLinkActive="active"  routerLink="obserable">Obserable</li> 
+       <li class="nav-link" routerLinkActive="active"  routerLink="viewchild">View Child</li>  -->
+       <!-- <li routerLink="loading">Lazy loading</li>  -->
+       <!-- <li routerLink="/employeedashbord/admin/login">LazyLoading</li>  -->
+      <!-- <li routerLink="/promise">Promises</li>  -->
+    </ul>
+   </kendo-appbar-section>
+
+  <kendo-appbar-section class="actions">
+    <kendo-appbar-spacer width="500px"></kendo-appbar-spacer>
+    <kendo-appbar-section>
+      <!-- <kendo-avatar
+      [data]="settings"
+        [imageSrc]="kendokaAvatar"
+        shape="circle"
+        width="35px"
+        height="35px"
+      > </kendo-avatar> -->
+
+      <kendo-avatar [data]="settings" [imageSrc]="kendokaAvatar" shape="circle" width="35px" height="35px">
+
+      </kendo-avatar>
+      <kendo-dropdownbutton [icon]="icon" [data]="settings" [imageSrc]="kendokaAvatar" shape="circle" width="35px"
+        height="35px"></kendo-dropdownbutton>
+
+      <kendo-appbar-spacer width="10px"></kendo-appbar-spacer>
+      <button kendoButton [primary]="true" [toggleable]="true" (click)="signOut()">
+        <!-- {{ displayElement ? "Add" : "Update" }} -->
+        Sign Out
+      </button>
+
+    </kendo-appbar-section>
+
+  </kendo-appbar-section>
+  </kendo-appbar>
+  <router-outlet></router-outlet>
+
